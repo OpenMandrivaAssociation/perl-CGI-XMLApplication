@@ -12,6 +12,7 @@ Source0:	http://search.cpan.org/CPAN/authors/id/P/PH/PHISH/%{module}-%{version}.
 Url:		http://search.cpan.org/~phish/%{module}/
 BuildRequires:	perl-devel perl-XML-LibXML perl-XML-LibXSLT
 BuildRequires:  perl-CGI
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot/
 BuildArch:	noarch
 
 %description
