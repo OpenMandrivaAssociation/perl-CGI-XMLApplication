@@ -8,7 +8,7 @@ Release:	11
 Summary:	%{upstream_name} module for perl
 License:	MPL
 Group:		Development/Perl
-Url:		http://search.cpan.org/~phish/%{upstream_name}/
+Url:		https://search.cpan.org/~phish/%{upstream_name}/
 Source0:	http://search.cpan.org/CPAN/authors/id/P/PH/PHISH/%{upstream_name}-%{upstream_version}.tar.bz2
 
 BuildRequires:	perl(CGI)
