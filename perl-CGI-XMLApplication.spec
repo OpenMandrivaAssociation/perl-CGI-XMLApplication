@@ -11,6 +11,7 @@ Group:		Development/Perl
 Url:		https://search.cpan.org/~phish/%{upstream_name}/
 Source0:	http://search.cpan.org/CPAN/authors/id/P/PH/PHISH/%{upstream_name}-%{upstream_version}.tar.bz2
 
+BuildRequires:	make
 BuildRequires:	perl(CGI)
 BuildRequires:	perl(XML::LibXML)
 BuildRequires:	perl(XML::LibXSLT)
