@@ -1,15 +1,15 @@
 %define upstream_name	 CGI-XMLApplication
-%define upstream_version 1.1.3
+%define upstream_version v1.1.5
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	11
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	%{upstream_name} module for perl
 License:	MPL
 Group:		Development/Perl
-Url:		https://search.cpan.org/~phish/%{upstream_name}/
-Source0:	http://search.cpan.org/CPAN/authors/id/P/PH/PHISH/%{upstream_name}-%{upstream_version}.tar.bz2
+Url:		https://metacpan.org/dist/CGI-XMLApplication
+Source0:	https://cpan.metacpan.org/authors/id/P/PH/PHISH/CGI-XMLApplication-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl(CGI)
